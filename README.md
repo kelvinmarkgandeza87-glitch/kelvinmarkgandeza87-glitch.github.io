@@ -38,7 +38,7 @@ I’m passionate about building projects, learning new technologies, and improvi
 ---
 
 ## 🔗 Links
-- 🌐 [GitHub Pages Website](https://kelvinmarkgandeza87-glitch.github.io/kelvinmarkgandeza87-glitch/)  
+- 🌐 [GitHub Pages Website](https://kelvinmarkgandeza87-glitch.github.io/)  
 -✉️ Email: kelvinmarkgandeza87@gmail.com  
 
 
