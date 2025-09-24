@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <style>
+
+    #urvid {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -2;
+    }
+
+    .content {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: justify;
+    }
+
+
+    #pause_button {
+      width: 200px;
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    #pause_button:hover {
+      background: #ddd;
+      color: #000;
+    }
+
+
+    .scroll-container {
+      margin-top: 15px;
+      background-color: transparent;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 5px;
+    }
+    .scroll-container img {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <video autoplay muted loop id="urvid">
+    <source src="video.mp4" type="video/mp4">
+
+  </video>
+
+  <div class="content">
+    <h1>Heading</h1>
+    <p>Gallery</p>
+    <button id="pause_button" onclick="myFunction()">Pause</button>
+
+    <div class="scroll-container">
+    <marquee>
+      <img src="img/1.jpg" width="280" height="300">
+      <img src="img/2.jpg" width="280" height="300">
+      <img src="img/3.jpg" width="280" height="300">
+      <img src="img/4.jpeg" width="280" height="300">
+      <img src="img/5.jpeg" width="280" height="300">
+      <img src="img/6.jpeg" width="280" height="300">
+      <img src="img/7.jpeg" width="280" height="300">
+      <img src="img/8.jpeg" width="280" height="300">
+      <img src="img/9.jpeg" width="280" height="300">
+      <img src="img/10.jpeg" width="280" height="300">
+      <img src="img/11.jpeg" width="280" height="300">
+      <img src="img/12.jpg" width="280" height="300">
+      <img src="img/13.jpg" width="280" height="300">
+      <img src="img/14.jpg" width="280" height="300">
+      <img src="img/15.jpg" width="280" height="300">
+      <img src="img/16.jpg" width="280" height="300">
+      <img src="img/17.jpg" width="280" height="300">
+      <img src="img/18.jpg" width="280" height="300">
+      <img src="img/19.jpg" width="280" height="300">
+      <img src="img/20.jpg" width="280" height="300">
+                
+    </marquee>
+    </div>
+  </div>
+
+  <script src="js/myvid.js"></script><script>
+    function myFunction() {
+  let video = document.getElementById("urvid");
+  let btn = document.getElementById("pause_button");
+
+  if (video.paused) {
+    video.play();
+    btn.innerText = "Pause";
+  } else {
+    video.pause();
+    btn.innerText = "Play";
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
