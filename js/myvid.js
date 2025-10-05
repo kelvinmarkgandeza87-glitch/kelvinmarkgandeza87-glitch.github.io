@@ -1,14 +1,12 @@
-  <script>
-    function myFunction() {
-      let video = document.getElementById("urvid");
-      let btn = document.getElementById("pause_button");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("pause_button");
 
-      if (video.paused) {
-        video.play();
-        btn.innerText = "Pause";
-      } else {
-        video.pause();
-        btn.innerText = "Play";
-        }
-    }
-  </script>
+btn.addEventListener("click", () => {
+  if (video.paused) {
+    video.play();
+    btn.textContent = "Pause Background";
+  } else {
+    video.pause();
+    btn.textContent = "Play Background";
+  }
+});
