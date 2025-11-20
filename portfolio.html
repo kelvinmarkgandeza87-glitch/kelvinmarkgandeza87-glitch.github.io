@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Gandeza - Professional Portfolio & Skills</title>
+    <link rel="stylesheet" href="CSS/midterm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">K.GANDEZA</div>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li> 
+            <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-wrapper">
+        
+        <section id="resume-skills" class="data-section">
+            <h2 class="section-header">SKILLS & EXPERIENCE SUMMARY</h2>
+            
+            <div style="text-align: center; margin-bottom: 40px;">
+                <a href="Gandeza_Resume.pdf" download class="main-cta" style="background: #28A745; border-color: #28A745;">
+                    Download Printable PDF 📄
+                </a>
+            </div>
+            
+            <div class="resume-layout">
+                
+                <div class="data-card" style="padding: 20px; background: var(--color-mid-bg); border: none; box-shadow: var(--shadow-subtle);">
+                    
+                    <img src="img/11.png" alt="Professional Headshot" class="profile-photo" style="max-width: 100%; border-radius: 4px; margin-bottom: 20px;">
+                    <h3 style="text-align: center; margin-bottom: 15px;">Kelvin Mark L. Gandeza</h3>
+                    
+                    <h3 style="font-size: 1.2rem; margin-top: 25px; border-bottom: 2px solid var(--color-primary);">CONTACT</h3>
+                    <p style="margin-top: 10px;"><strong>Mobile:</strong> 09956731230</p>
+                    <p><strong>Email:</strong> kelvinmarkgandeza87@gmail.com</p>
+                    <p><strong>Location:</strong> Dangdangla, Bangued, Abra</p>
+                    <p><strong>Birth Date:</strong> Dec. 6, 2001</p>
+                    
+                    <h3 style="font-size: 1.2rem; margin-top: 30px; border-bottom: 2px solid var(--color-primary);">REFERENCES</h3>
+                    <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                        <li>Marites Gandeza — Teacher — 09387292348</li>
+                        <li>Janet Gandeza — Teacher — 09421235998</li>
+                    </ul>
+                    
+                </div>
+                
+                <div>
+                    
+                    <div class="data-card full-width" style="margin-bottom: 30px; border-left: 5px solid var(--color-primary); box-shadow: var(--shadow-subtle);">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 15px;">EDUCATIONAL BACKGROUND</h3>
+                        <ul style="list-style: disc; padding-left: 20px;">
+                            <li><strong>Tertiary:</strong> Data Center College of the Philippines Bangued (BSIT, Year 4)</li>
+                            <li><strong>Secondary:</strong> Divine Word College of Bangued (Graduated 2019)</li>
+                            <li><strong>Primary:</strong> Abas Elementary School (Graduated 2013)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="data-card full-width" style="border-left: 5px solid var(--color-primary); box-shadow: var(--shadow-subtle);">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 15px;">SKILLS & PROFICIENCY (ADJUSTABLE DEMO)</h3>
+                        
+                        <div class="skill-bar-container">
+                            <p class="skill-label">Front-End Development (HTML, CSS, Bootstrap) - <span id="val-frontend">95%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-frontend" data-initial-value="95" style="width: 95%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="95" data-target="frontend">
+                        </div>
+                        
+                        <div class="skill-bar-container">
+                            <p class="skill-label">PHP (Back-End Logic) - <span id="val-php">85%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-php" data-initial-value="85" style="width: 85%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="85" data-target="php">
+                        </div>
+
+                        <div class="skill-bar-container">
+                            <p class="skill-label">MySQL (Database Management) - <span id="val-mysql">85%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-mysql" data-initial-value="85" style="width: 85%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="85" data-target="mysql">
+                        </div>
+
+                        <div class="skill-bar-container">
+                            <p class="skill-label">UI/UX Design - <span id="val-uiux">85%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-uiux" data-initial-value="85" style="width: 85%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="85" data-target="uiux">
+                        </div>
+
+                        <div class="skill-bar-container">
+                            <p class="skill-label">JavaScript - <span id="val-javascript">80%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-javascript" data-initial-value="80" style="width: 80%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="80" data-target="javascript">
+                        </div>
+                        
+                        <div class="skill-bar-container">
+                            <p class="skill-label">MS Office (Productivity) - <span id="val-msoffice">90%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" id="progress-msoffice" data-initial-value="90" style="width: 90%;"></div>
+                            </div>
+                            <input type="range" class="skill-slider" min="0" max="100" value="90" data-target="msoffice">
+                        </div>
+                        
+                        <div style="margin-top: 30px; text-align: center;">
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section id="portfolio-main" class="data-section">
+            <h2 class="section-header">PROJECTS AND CASE STUDIES</h2> 
+            
+            <div class="data-card full-width" style="text-align: center; padding: 40px;">
+                <p style="font-size: 1.1rem; margin-bottom: 25px;">
+                    Review my professional work demonstrating skills in Web Development, UI/UX, and Front-End implementation. Below is a detailed list of my key projects.
+                </p>
+                
+                <div class="data-grid" style="grid-template-columns: 1fr;">
+                    
+                    <div class="data-card" id="project1-description" style="border-left-color: #00A3FF; text-align: left;">
+                        <h3>E-PORTFOLIO WEBSITE (This Site)</h3>
+                        <p style="color: var(--color-subtle-text); margin-bottom: 5px;">
+                            <strong>Role:</strong> Student Developer & Designer | 
+                            <strong>Technologies:</strong> HTML, CSS, Vanilla JavaScript
+                        </p>
+                        <p style="color: var(--color-subtle-text); margin-bottom: 15px;">
+                            <strong>Key Skills Demonstrated:</strong> Responsive Design, UI/UX Implementation, Clean Code Structure
+                        </p>
+
+                        <p style="margin-bottom: 20px;">
+                            This website was created as part of my learning journey in web development. 
+                            It showcases my understanding of responsive design, clean code structure, and modern CSS layouts. 
+                            The project is hosted on GitHub as a demonstration of my progress and growing skills.
+                            <br><br>
+                            <strong>To view the visual logs and multiple screenshots of this project's different pages, please click the link below.</strong>
+                        </p>
+                        
+                        <a href="gallery.html#project-gallery-section" class="secondary-cta" style="margin-top: 15px;">
+                            VIEW PROJECT SCREENSHOTS &rarr;
+                        </a>
+                    </div>
+
+                    <div class="data-card" id="project2-description" style="border-left-color: #00A3FF; text-align: left;">
+                        <h3>Holy Spirit Academy of Bangued (HSAB) Website <span id="progress-dots" class="in-progress-indicator"></span></h3>
+                        <p style="color: var(--color-subtle-text);"><strong>Project Type:</strong> Online Information System (OIS) & Content Management System (CMS) | <strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, JavaScript, Bootstrap</p>
+                        <p style="color: var(--color-subtle-text); margin-bottom: 15px;">
+                            <strong>Key Skills Demonstrated:</strong> Full-Stack Development, Database Management, CMS Implementation
+                        </p>
+                        <p><strong>Description:</strong> Designed and implemented a centralized, fully responsive school website (OIS) for HSAB to solve fragmented communication. The system features a Content Management System (CMS) built on PHP and MySQL, enabling non-technical administrators to publish real-time news, announcements, and school information instantly without code. Successfully improved information accessibility and administrative efficiency.</p>
+                    </div>
+
+                    <div class="data-card" id="project3-description" style="border-left-color: #00A3FF; text-align: left;">
+                        <h3>MEJ Online Reservation System (ORS) <span id="progress-dots" class="in-progress-indicator"></span></h3>
+                        
+                        <p style="color: var(--color-subtle-text);"><strong>Project Type:</strong> Resource Scheduling System & ORS | <strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, JavaScript, Bootstrap</p>
+                        <p style="color: var(--color-subtle-text); margin-bottom: 15px;">
+                            <strong>Key Skills Demonstrated:</strong> Transactional Logic, Real-Time Availability, Back-End Security
+                        </p>
+                        <p><strong>Description:</strong> Developed a secure, real-time <strong>Online Reservation System (ORS)</strong> to automate the booking and scheduling of services for a local metal fabrication shop. The system manages complex time-slot availability, prevents double-booking of machinery, and includes an Admin dashboard for managing the reservation calendar, confirming customer requests, and generating utilization reports. Transformed a manual process into a 24/7 digital service, optimizing shop efficiency and client convenience.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="mailto:kelvinmarkgandeza87a@gmail.com" class="footer-email">
+                kelvinmarkgandeza87a@gmail.com
+            </a>
+            <div class="social-links">
+                <a href="#" target="_blank" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank" title="Facebook Page">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank" title="Twitter Profile">
+                    <i class="fab fa-twitter"></i>
+                </a>                
+            </div>
+            <p>&copy; 2025 Kelvin Mark L. Gandeza. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/myvid.js"></script>
+    <script src="js/portfolio-interactive.js"></script>
+</body>
+</html>
